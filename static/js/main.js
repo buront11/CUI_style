@@ -13,25 +13,24 @@ function InitialMessageComponent() {
   );
 }
 
-function InputComponent() {
+function InputComponent(props) {
   return (
       <div class="line">
-        <span class="user">guest@comnets:</span>
-        <span class="location"> ~ </span>
+        <span class="user">{props.name}:</span>
+        <span class="location">{props.directory}</span>
         <span class="percent">%</span>
         <input type="text" class="latest-input" autofocus />
       </div>
   )
 }
 
-function Terminal(){
+function Terminal(props){
   return (
     <div>
       <InitialMessageComponent />
-      <InputComponent />
+      <InputComponent name={props.userName} directory={props.currentDirectory} />
     </div>
   )
 }
 
-// var component=terminal("guest@comnets", "~")
-display(<Terminal />)
+display(<Terminal userName="guest@comnets" currentDirectory="~" />)
