@@ -75,6 +75,17 @@ body {
   margin-left: 0.5em;
 }
 
+/* input */
+input {
+  background-color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #ddd;
+  font-family: 'Ubuntu Mono';
+  font-size: medium;
+}
+
 /* 入力カーソル */
 /* .cursor {
   height: 2ex;

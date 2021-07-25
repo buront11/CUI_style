@@ -1,29 +1,58 @@
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<div class="terminal">
-			<div class="responce">Welcome to ComNets Lab!!</div>
-			<div class="line">
-				<span class="user">guest@comnets:</span>
-				<span class="location"> ~ </span>
-				<span class="percent">%</span>
-				<div class="command" value="ls">ls</div>
-			</div>
-			<div class="line">
-				<div class="responce">
-					<div class="content dir">dir1</div>
-					<div class="content dir">dir2</div>
-					<div class="content file">file</div>
-				</div>
-			</div>
-			<div class="line">
-				<span class="user">guest@comnets:</span>
-				<span class="location"> ~ </span>
-				<span class="percent">%</span>
-				<input id="current_command" value="cat file"></d>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>terminal</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="responce">Welcome to ComNets Lab CUI mode!!</div>
+      <div class="responce">Copyright (c) ComNetsLab. All rights reserved.</div>
+      <br />
+      <br />
+
+      <div class="line">
+        <span class="user">guest@comnets:</span>
+        <span class="location"> ~ </span>
+        <span class="percent">%</span>
+        <input type="text" class="latest-input" autofocus />
+      </div>
+
+      <!-- Usage Example
+      <div class="responce">Welcome to ComNets Lab!!</div>
+      <div class="line">
+        <span class="user">guest@comnets:</span>
+        <span class="location"> ~ </span>
+        <span class="percent">%</span>
+        <div class="command" value="ls">ls</div>
+      </div>
+      <div class="line">
+        <div class="responce">
+          <div class="content dir">dir1</div>
+          <div class="content dir">dir2</div>
+          <div class="content file">file</div>
+        </div>
+      </div>
+      <div class="line">
+        <span class="user">guest@comnets:</span>
+        <span class="location"> ~ </span>
+        <span class="percent">%</span>
+        <input id="current_command" value="cat file" />
+      </div>
+      -->
+    </div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+    <script type="text/javascript" src="static/js/focus.js"></script>
+  </body>
 </html>
