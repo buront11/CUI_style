@@ -19,7 +19,7 @@ function InputComponent(props) {
         <span class="user">{props.name}:</span>
         <span class="location">{props.directory}</span>
         <span class="percent">%</span>
-        <input type="text" class="latest-input" autofocus />
+        <input type="text" class="latest-input" autoFocus={true} />
       </div>
   )
 }
