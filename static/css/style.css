@@ -82,6 +82,8 @@ input {
   border: none;
   outline: none;
   color: #ddd;
+  font-family: 'Ubuntu Mono';
+  font-size: medium;
 }
 
 /* 入力カーソル */
