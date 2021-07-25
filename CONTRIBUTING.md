@@ -10,6 +10,6 @@ npm install
 * フォーマッタをかけてからmerge
 
 ```
-npx prettier 編集したファイル
+npx prettier --write 編集したファイル
 ```
 
