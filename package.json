@@ -19,5 +19,8 @@
   "homepage": "https://github.com/buront11/CUI_style#readme",
   "devDependencies": {
     "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
   }
 }
