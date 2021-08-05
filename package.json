@@ -18,9 +18,21 @@
   },
   "homepage": "https://github.com/buront11/CUI_style#readme",
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/runtime": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "^2.3.2",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

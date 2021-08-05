@@ -19,9 +19,15 @@ function InputComponent(props) {
       <span class="user">{props.name}:</span>
       <span class="location">{props.directory}</span>
       <span class="percent">%</span>
-      <input type="text" class="latest-input" autoFocus={true} />
+      <input type="text" class="latest-input" onKeyPress={OnEnterPressed} autoFocus={true} />
     </div>
   );
+}
+
+function OnEnterPressed(e) {
+  if (e.key == 'Enter'){
+    alert('Pressed Enter')
+  }
 }
 
 function Terminal(props) {
